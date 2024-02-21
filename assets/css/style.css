@@ -44,6 +44,11 @@ h3{
     font-size: 50px;
     margin-top: 40px;
 }
+label{
+    font-family: 'Arial', sans-serif;
+    font-size: 30px;
+    margin-top: 20px;
+}
 /* cliecker free font */
 @font-face {
     font-family: clickerFreeFont;
