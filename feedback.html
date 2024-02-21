@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Love & Pets</title>
+    <link rel="icon" type="image/x-icon" href="./assets/images/favicon.ico">
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <link href="assets/css/style.css" rel="stylesheet">
+    <style type="text/css">
+        label{
+            font-family: 'Arial', sans-serif;
+            font-size: 30px;
+            margin-top: 20px;
+        }
+      </style>
+  </head>
+  <body>
+    <div class="vh-100 d-flex flex-column">
+        <!--- header --->
+        <nav class="navbar navbar-custom navbar-expand navbar-light">
+            <a class="navbar-brand font_clicker_free font_size_40px" href="index.html">
+                <img src="assets/images/pic1.png" style="width: 50px; height: 50px;"/>l&p
+            </a>
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.html">main</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="catalog.html">animals</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="feedback.html">feedback</a>
+                </li>
+            </ul>
+        </nav> 
+        <!-- container with content -->
+        <div class="flex-grow-1 overflow-auto"> 
+            <div class="container_1">
+                    <p>If you...</p>
+                <table>
+                    <tr>
+                        <td><img src="assets/images/Ellipse 8.png" style="width: 20px; height: 20px; margin-right: 10px;"/></td>
+                        <td>found a mistake</td>
+                    </tr>
+                    <tr>
+                        <td><img src="assets/images/Ellipse 8.png" style="width: 20px; height: 20px; margin-right: 10px;"/></td>
+                        <td>want to ask something</td>
+                    </tr>
+                </table>
+                <!-- forma -->
+                <form>
+                    <div class="form-group">
+                    <label for="exampleInputEmail1">Email address</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleFormControlTextarea1">Text</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Write here"></textarea>
+                    </div>
+                    <button type="button" class="btn btn-success margin_top_5px">Send</button>
+                </form>  
+            </div>
+        </div>
+        <!-- footer -->
+        <nav class="navbar sticky-bottom navbar-light bg-light">Footer (c) Zlata 2024</nav>
+    </div>
+</body>
+</html>

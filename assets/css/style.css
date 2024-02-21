@@ -1,0 +1,84 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+.container_1 {
+padding: 1em;
+}
+.rightimg  {
+    float: right; 
+    margin: 7px 0 7px 7px;
+    width: 690px; 
+    height: 740px;
+}
+.margin_20px {
+    margin: 20px;
+}
+.margin_top_5px {
+    margin-top: 5px;
+}
+.font_size_40px {
+    font-size: 40px;
+}
+.font_size_70px {
+    font-size: 70px;
+}
+.font_size_100px {
+    font-size: 200px;
+}
+.font_size_200px {
+    font-size: 200px;
+}
+table{
+    font-family: 'Arial', sans-serif;
+    font-size: 30px;
+    margin-left: 100px;
+}
+p {
+    font-family: 'Arial', sans-serif;
+    font-size: 30px;
+    margin-top: 30px;
+}
+h3{
+    font-family: 'Arial', sans-serif;
+    font-size: 50px;
+    margin-top: 40px;
+}
+/* cliecker free font */
+@font-face {
+    font-family: clickerFreeFont;
+    src: url(../fonts/ClickerScript-Regular.ttf);
+    font-display: fallback;
+}
+.font_clicker_free {
+    font-family: clickerFreeFont;
+}
+
+/* aref ruqaa */
+@font-face {
+    font-family: arefRuqaa;
+    src: url(../fonts/ArefRuqaa-Regular.ttf);
+    font-display: fallback;
+}
+.font_aref_ruqaa {
+    font-family: arefRuqaa;
+    letter-spacing: 5px;
+}
+
+/* Change the background color */
+.navbar-custom {
+    background-color: rgb(164, 220, 120);
+}
+
+/* Change the  color */
+.nav-link{
+    color: rgb(99, 125, 79);
+}
+.nav-link.active{
+    color:rgb(255, 118, 118) !important;
+}
+
+.btn-success{
+    background-color: rgb(164, 220, 120);
+    color:black;
+}
