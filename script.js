@@ -28,7 +28,7 @@ function my_function()
     if (is_empty(text))
         right_text = false;
     
-        
+
     if (right_email && right_text)
         modal("Данные успешно обработаны и отправлены");
     else if (!right_email && !right_text)
